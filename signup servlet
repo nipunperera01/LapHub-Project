@@ -1,0 +1,31 @@
+ @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        
+        PrintWriter our=response.getWriter();
+        Connection con=null;
+        Statement stmt=null;
+        String n="",e="",p="",cp="";
+        n=request.getParameter("name");
+        e=request.getParameter("email");
+        p=request.getParameter("password");
+        cp=request.getParameter("cpassword");
+        
+        try
+        {
+            Class.forName("com.mysql.jdbc.Driver");
+            
+            con=DriverManager.getConnection(n, n, n);
+            
+            stmt=con.createStatement();
+            stmt.executeUpdate("insert into signuptab values('"+n+"','"+e+"','"+p+"','"+cp"')");
+            out.print("<h1>Your account crated successfully</>");
+        }
+        
+        catch(Exception e)
+        {
+            
+            out.println("Sorry!!! try again later.");
+        
+        }
+                
