@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="POST">
+            <div class="row">
+                <div class="column">
+                    <h3 class="title">Billing Address</h3>
+                    <div class="input-box">
+                        <span>Full Name :</span>
+                        <input type="text" placeholder="Enter Your Name" required>
+                    </div>
+                    <div class="input-box">
+                        <span>Email :</span>
+                        <input type="email" placeholder="example@gmail.com" required>
+                    </div>
+                    <div class="input-box">
+                        <span>Address :</span>
+                        <input type="text" placeholder="House-No - Street - District" required>
+                    </div>
+                    <div class="input-box">
+                        <span>City :</span>
+                        <input type="text" placeholder="Enter Your Current City" required>
+                    </div>
+                    <div class="flex">
+                        <div class="input-box">
+                            <span>State :</span>
+                            <input type="text" placeholder="State" required>
+                        </div>
+                        <div class="input-box">
+                            <span>Zip-Code :</span>
+                            <input type="number" placeholder="Zip-Code" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <h3 class="title">Payment</h3>
+                    <div class="input-box ">
+                        <span>Cards Accepted :</span>
+                        <img src="imgcards.png">
+                    </div>
+                    <div class="input-box">
+                        <span>Name on Card :</span>
+                        <input type="text" placeholder="Mr/Ms/Abc Perera" required>
+                    </div>
+                    <div class="input-box">
+                        <span>Card Number :</span>
+                        <input type="number" placeholder="xxxx-xxxx-xxxx-xxxx" required>
+                    </div>
+                    <div class="input-box">
+                        <span>Exp-Month :</span>
+                        <input type="text" placeholder="Exp-Month" required>
+                    </div>
+                    <div class="flex">
+                        <div class="input-box">
+                            <span>Exp-Year :</span>
+                            <input type="number" placeholder="Exp-Year" required>
+                        </div>
+                        <div class="input-box">
+                            <span>CVV :</span>
+                            <input type="number" placeholder="xxx" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
