@@ -128,7 +128,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div calss="card-col-md-12"></div>
-                                        <form action="" method="post">
+                                        <form action="signup" method="post">
                                             <center>
 
                                                 <h2 div class="s1"> Sign Up</h2>
