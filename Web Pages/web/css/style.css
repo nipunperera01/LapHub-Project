@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+ body
+{
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+	   
+}
+.navbar-nav > li
+{
+  margin-left:5px;
+  margin-right:5px;
+  font-size: 18px;
+}
+.navbar
+{
+	
+}
+.btn
+{
+    border-radius: 15px;
+    background-color: #f1f1f1;
+	border: 0px;
+       
+}
+btn:hover
+	 {   
+					      opacity: 0.7;
+						  background:#ffffff;
+						  
+				      }
+h1
+{
+    color: rgb(255, 255, 255);
+    font-size: 350%;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+.table3
+{
+    background: rgba(0, 0, 0, 0.322);
+    font-style: normal;
+    font-weight: 400;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+.table4
+{
+    background: rgba(0, 0, 0, 0.322);
+    font-style: normal;
+    font-weight: 400;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+.table5
+{
+    background: rgba(0, 0, 0, 0.322);
+    font-style: normal;
+    font-weight: 400;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    text-shadow: 10px 10px #000000;
+}
+.bg_c
+{
+	
+  /* background-image:linear-gradient(135deg, rgba(0, 35, 46, 0.541) 10%, rgba(63, 0, 88, 0.527) 38%, rgba(0, 68, 41, 0.521) 100%);
+   */background-image:linear-gradient(109.6deg, rgba(218, 218, 218, 0.986) 0%, rgba(1, 15, 47, 0.686) 00%);
+
+   
+}
+hr.home_hr
+{
+  width: 80%;
+  border: none;
+  height: 1.9px;
+  /* Set the hr color */
+  color: black;
+  background-color: black;
+}
+
+
+
+/*footer css*/
+footer
+{
+    background-color: #212121;
+    font-size: small;
+    color: #FFFFFF;	
+	
+}
+
+/*news feed*/
+
+.footer_1
+{
+    background-color: black; 
+   font-size: x-small;
+
+}
+hr.footer_hr
+{
+
+  border: none;
+  height: 1.0px;
+  width: auto;
+  /* Set the hr color */
+  background-color: white;
+}
+
+a.flink
+{
+	color: white;
+}
+a.flink:hover
+{
+	color: blue;
+}
+p.slogan
+{
+	font-size: 20px;
+	font-style: italic;
+	align-items: center;
+}
+p.about
+{
+	font-size: 11px;
+	font-style: italic;
+	align-items: center;
+}
+p
+{
+    color: white;
+}
+.bg_p{
+	position: relative;
+	width:800px;
+	height: 440px;
+	background: transparent;
+	border:2px solid rgba(255,255,255,5.00);
+	border-radius: 20px;
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 30px rgba(0,0,0,.5);
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 40px;
+	
+}
+.p1{
+	color: aliceblue;
+}
+
+
