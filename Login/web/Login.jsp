@@ -122,7 +122,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div calss="card-col-md-12"></div>
-                                        <form action="...." method="post">
+                                        <form action="Login" method="post">
                                             <center>
 
                                                 <h2 div class="s1"> Login</h2>
