@@ -100,15 +100,12 @@ public class signup extends HttpServlet {
         }
         catch (SQLException e) {
             e.printStackTrace();
-            // Handle database connection or query errors
-            // You might want to redirect to an error page
+        
             response.sendRedirect("Signup.jsp");
             return;
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(signup.class.getName()).log(Level.SEVERE, null, ex);
         }
-
-        // Forward to signup success JSP page
         String forwardTo = "Welcome.jsp";
         RequestDispatcher dispatcher = request.getRequestDispatcher(forwardTo);
         dispatcher.forward(request, response);
